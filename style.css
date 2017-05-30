@@ -1,0 +1,38 @@
+.clock {
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    border-radius: 50%;
+    background: url("clockbg.jpeg");
+    background-size: cover;
+}
+.hours {
+    width: 5px;
+    position: absolute;
+    height: 25%;
+    background-color: black;
+    top: 50%;
+    left: calc(50% + 2.5px);
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+}
+.minutes {
+    width: 3px;
+    position: absolute;
+    height: 40%;
+    background-color: black;
+    top: 50%;
+    left: calc(50% + 1.5px);
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+}
+.seconds {
+    width: 1px;
+    position: absolute;
+    height: 50%;
+    background-color: black;
+    top: 50%;
+    left: calc(50% + 0.5px);
+    transform: rotate(180deg);
+    transform-origin: 0 0;
+}
